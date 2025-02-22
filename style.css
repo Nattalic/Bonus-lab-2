@@ -1,16 +1,15 @@
 /*GENERAL */
 body {
     font-family: "poppins", sans-serif;
-    margin: 20px;
+    margin: 0;
     padding: 0;
-    background-color: rgb(255, 244, 255);
 }
 
+
 /* SECCIÓN PRINCIPAL */
+
 .header {
-    padding: 50px 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 40px 40px;
 }
 
 /* INFORMACIÓN DE CONTACTO */
@@ -26,20 +25,20 @@ body {
 }
 
 /* NOMBRE Y TÍTULO */
-.nombre-titulo {
+.name-title {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
     margin-top: 20px;
 }
 
-.nombre {
+.name {
     font-size: 40px;
     font-weight: bold;
     line-height: 40px; 
 }
 
-.titulo {
+.title {
     background-color: #F4D3A1; 
     padding: 5px 10px;
     font-size: 18px;
@@ -63,36 +62,29 @@ body {
     line-height: 1.5;
 }
 
-
-.section-education {
-    padding-left: 50px;
-    padding-right: 50px;
-    
-}
-
 .education {
-    
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
-.education-container{
+.education-container {
     display: flex;
+    align-items: stretch; /* Asegura que la línea cubra toda la altura */
 }
 
 .education-element {
     padding: 25px 25px 25px 0px;
-    
+    width: 50%;
     text-align: justify;
 }
 
 .borde {
     padding-left: 25px;
-    border-left: 3px solid rgb(29, 29, 29);
-    
+    border-left: 3px solid black; 
+    height: 90%; 
+
 }
 
-.section-education {
-    border-top: 3px solid black ;
-    padding-top: 20px;
+h2 {
+    margin-bottom: 0px;
 }
