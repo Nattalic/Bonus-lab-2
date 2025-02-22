@@ -62,29 +62,35 @@ body {
     line-height: 1.5;
 }
 
+/* Contenedor de la sección Education */   
 .education {
     padding-left: 40px;
     padding-right: 40px;
 }
 
+
 .education-container {
     display: flex;
-    align-items: stretch; /* Asegura que la línea cubra toda la altura */
+    gap: 20px; /* Espacio entre columnas */
+    padding-top: 10px;
+    align-items: stretch; /* Ambas columnas tienen la misma altura */
 }
 
 .education-element {
-    padding: 25px 25px 25px 0px;
-    width: 50%;
-    text-align: justify;
+    flex: 1;
+    display: flex;
+    align-items: flex-start; /* Asegura que el contenido se alinee arriba */
 }
 
-.borde {
-    padding-left: 25px;
-    border-left: 3px solid black; 
-    height: 90%; 
-
+.left {
+    border-right: 2px solid #ddd;
+    padding-right: 20px;
+    display: flex;
+    align-items: stretch; 
 }
 
-h2 {
+.education h2 {
+    padding-top: 20px;
+    border-top: 2px solid #ddd;
     margin-bottom: 0px;
 }
