@@ -7,6 +7,7 @@ body {
     max-width: 1200px;
     margin: auto;
     padding: 40px;
+    color: #181818;
 }
 
 p {
@@ -19,59 +20,42 @@ h3 {
 
 /*seccion principal*/
 
-.header {
-    padding: 50px;
-    padding-top: 0px;
+#header {
+    padding: 40px;
+    padding-bottom: 0px;
+    
 }
 
-/*informacion de contacto*/
-.contact-info {
+#contact-info {
     display: flex;
     justify-content: space-between;
     font-size: 14px;
-    color: #333;
 }
 
-.contact-info span {
-    font-weight: bold; 
-}
-
-/* nombre y titulo */
-.name-title {
+#container {
     display: flex;
-    align-items: baseline;
     justify-content: space-between;
-    margin-top: 20px;
+    align-items: center;
 }
 
-.name {
-    font-size: 40px;
-    font-weight: bold;
-    line-height: 40px; 
+#profile {
+    text-align: justify;
 }
 
-.title {
-    background-color: #F4D3A1; 
+#info {
+   
+    text-align: right;
+}
+
+h1 {
+    font-size:70px;
+    font-weight: bold ;
+}
+
+#title {
+    background-color: #e88ab6;
     padding: 5px 10px;
-    font-size: 18px;
-    font-weight: bold;
     border-radius: 5px;
-}
-
-/*perfil */
-.profile {
-    margin-top: 20px;
-}
-
-.profile h2 {
-    font-size: 22px;
-    font-weight: bold;
-}
-
-.profile p {
-    font-size: 14px;
-    color: #555;
-    line-height: 1.5;
 }
 
 /* sección Education */ 
@@ -95,6 +79,12 @@ h3 {
 
 .borde {
     border-left: 2px solid #ddd;
+}
+
+.education h2 {
+    border-top: 2px solid #ddd;
+    margin-top: 55px;
+    padding-top: 30px;
 }
 
 /* sección Experience */ 
