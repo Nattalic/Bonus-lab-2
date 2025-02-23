@@ -1,10 +1,22 @@
 /*general*/
-body {
+* {
     font-family: "poppins", sans-serif;
+}
+
+body {
     max-width: 1200px;
     margin: auto;
     padding: 40px;
 }
+
+p {
+    width: 535px
+}
+
+h3 {
+    margin: 0px;
+}
+
 /*seccion principal*/
 
 .header {
@@ -85,21 +97,6 @@ body {
     border-left: 2px solid #ddd;
 }
 
-.education h2 {
-    border-top: 2px solid #ddd;
-    padding-top: 30px;
-}
-
-.education h3 {
-    margin: 0px;
-}
-
-.education p {
-    margin-bottom: 0px;
-    width: 535px;
-
-}
-
 /* sección Experience */ 
 
 .experience {
@@ -177,7 +174,6 @@ body {
     padding-bottom: 0px;
     padding-left: 0px;
     text-align: justify;
-    
 }
 
 .skills-list {
@@ -189,6 +185,7 @@ body {
     display: flex;
     font-size: 18px;
     width: 535px;
+    margin: 0px;
     
 }
 
@@ -205,13 +202,12 @@ body {
 
 .skills h2 {
     border-top: 2px solid #ddd;
-    padding-top: 30px;
     margin-top: 55px;
+    padding-top: 30px;
 }
 
 .skills h3 {
     margin: 0px;
-    
 }
 
 
@@ -266,5 +262,94 @@ body {
 }
 
 .projects p {
+    margin: 0px;
+}
+
+/*seccion lenguajes*/
+.language {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.language-container {
+    display: flex;
+}
+
+
+.language-element {
+    padding-top: 0px;
+    padding-right: 25px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    text-align: justify;
+ 
+}
+
+.borde {
+    border-left: 2px solid #ddd;
+    padding-left: 25px;
+    padding-right: 0px;
+
+}
+
+.language-list {
+    list-style: none; 
+    padding: 0;
+    margin-bottom: 0px;
+}
+
+.language-list li {
+    display: flex;
+    font-size: 18px;
     width: 535px;
+    margin-top: 10px;
+}
+
+.language-list img {
+    height: 24px;
+    margin-right: 10px;
+}
+
+.language h2 {
+    border-top: 2px solid #ddd;
+    margin-top: 55px;
+    padding-top: 30px;
+}
+
+.language p {
+    margin-bottom: 0px;
+}
+
+/*Sección de  Hobbies*/
+.hobbies {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.hobbies-container {
+    display: flex;
+    padding: 20px;
+}
+
+.hobby {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 180px; 
+}
+.hobby img {
+    width: 50px;
+    height: 50px;
+    border-radius: 80px;
+    border: 2px solid #ddd;
+    padding: 10px;
+}
+.hobby p {
+    font-size: 14px;
+}
+
+.hobbies h2 {
+    border-top: 2px solid #ddd;
+    margin-top: 55px;
+    padding-top: 30px;
 }
