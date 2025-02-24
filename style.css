@@ -43,7 +43,6 @@ h3 {
 }
 
 #info {
-   
     text-align: right;
 }
 
@@ -55,7 +54,7 @@ h1 {
 #title {
     background-color: #e88ab6;
     padding: 5px 10px;
-    border-radius: 5px;
+    margin: 0px;
 }
 
 /* sección Education */ 
@@ -263,23 +262,40 @@ h1 {
 
 .language-container {
     display: flex;
+    justify-content: space-between;
 }
 
 
 .language-element {
-    padding-top: 0px;
-    padding-right: 25px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    text-align: justify;
- 
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 .borde {
     border-left: 2px solid #ddd;
     padding-left: 25px;
     padding-right: 0px;
+    width: 535px;
+}
 
+.column {
+    max-width: 30%;
+    margin-right:35%;
+    text-align: justify;
+}
+.column h2 {
+    display: block;
+    font-weight: bold;
+}
+
+.language-element-borde {
+   width: 80%;
+   display: flex;
+}
+
+.language-element-borde p {
+    max-width:200%
 }
 
 .language-list {
